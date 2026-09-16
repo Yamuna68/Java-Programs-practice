@@ -8,7 +8,7 @@ for(String word : words){
   map.put(word, map.getOrDefault(word,0)+1);
 }
 for(Map.Entry<String,Integer> entry : map.entrySet()){
-System.out.print(entry.getKey() + " " + entry.getVALue());
+System.out.print(entry.getKey() + " " + entry.getValue());
 }
 }
 }
