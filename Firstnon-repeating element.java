@@ -4,7 +4,7 @@ class FirstNonRepeatingElement {
         for(int i = 0; i<=str.length(); i++){
             boolean repeated = false;
             for(int j=0 ; j<=str.length(); j++){
-                if(i!= 0 && str.charAt(i) == str.charAt(j)){
+                if(i!= j && str.charAt(i) == str.charAt(j)){
                     repeated = true;
                     break;
                 }
